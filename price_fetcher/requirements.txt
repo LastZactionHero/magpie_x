@@ -1,0 +1,4 @@
+# price_fetcher/requirements.txt
+requests
+psycopg2-binary
+
