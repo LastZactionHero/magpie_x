@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  price-fetcher:
+    build: .
+    command: python ./price_fetcher/fetch_prices.py
+    volumes:
+      - .:/app
